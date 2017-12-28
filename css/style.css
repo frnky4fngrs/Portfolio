@@ -34,18 +34,17 @@ body {
 	border-top: 3px solid black;
 }
 
-h2 {
-	font-family: "Courier New", Courier;
-	font-weight: 400;
+img.align-img {
+	align-self: center;
+}
+
+.ext1 {
+	display: none;
 }
 
 h3 {
-	font-family: Ariel, Verdana;
+	font-family: Arial, Verdana;
 	font-weight: 500;
-}
-
-h3.ext1 {
-	display: none;
 }
 
 h4 {
@@ -54,7 +53,7 @@ h4 {
 }
 
 p {
-	font-family: Ariel, Verdana;
+	font-family: Arial, Verdana;
 	font-weight: 300;
 	font-size: 65%;
 }
@@ -66,11 +65,10 @@ header {
 	max-height: 100px;
 }
 
-footer {
-	max-height: 30vh;
-}
-
-header, footer, article, nav {
+header,
+footer,
+article,
+nav {
 	padding: 1em;
 }
 
@@ -80,11 +78,6 @@ header, footer, article, nav {
 	flex-wrap: wrap;
 }
 
-.card {
-	/*border: 1px dotted black;*/
-}
-
 figcaption {
-	
-	text-align: center;
+		text-align: center;
 }
