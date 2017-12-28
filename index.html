@@ -3,65 +3,72 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://use.fontawesome.com/84caef8711.js"></script>
 	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-	<nav class="col-one"></nav>   <!--place for future content-->
+	<nav class="col-one"></nav>   <!--TODO place for future content-->
 
 	<div class="col-two"> <!-- main page content -->
 
 		<header>
-			<img src="img/logo.png" alt="Logo">
-			<h2><em>JEFF JONES</em></h2>
+			<img class="align-img" src="img/logo2.jpg" alt="Logo">
+			<h1><em>JEFF JONES</em></h1>
 		</header>
 
 		<main class="content">
 			<article id="pageart">
-				<h3 class="ext1">Page Art</h3>
-				<img src="img/MVIMG2.jpg" alt="building at night" class="artwidth">
+				<h3 class="ext1">Page Art</h3>  <!-- TODO will be in future rev -->
+				<img class="artwidth" src="img/matriview.jpg" alt="beach in matrix">
 			</article>
 		</main>
 
-		<footer>   <!--show work cards -->
+		<article id="work-cards">
 			<h3>Featured Work</h3>
 
 			<div class="card-container">
 
-				<div class="card">
+				<article class="card">
 					<figure>
-						<img src="img/screenshot.png" alt="screenshot">
+						<img class="align-img" src="img/screenshot.png" alt="screenshot">
 						<figcaption>
 							<h4>MOVIE TRAILERS</h4>
-							<p>https://github.com/frnky4fngrs/Movie_Trailer</p>
-							<!-- <a href="#">github link</a> -->
+							<p>https://github.com/frnky4fngrs/Movie_Trailer/</p>
+							<!-- <a href="https://github.com/frnky4fngrs/Movie_Trailer">github link</a> -->
 						</figcaption>
 					</figure>
-				</div>
+				</article>
 
-				<div class="card">
+				<article class="card">
 					<figure>
-						<img src="img/card.jpg" alt="circuit card">
+						<img class="align-img" src="img/card.jpg" alt="circuit card">
 						<figcaption>
 							<h4>PORTFOLIO</h4>
-							<p>https://github.com/frnky4fngrs/Portfolio</p>
-							<!-- <a href="#">github link</a> -->
+							<p>https://github.com/frnky4fngrs/Portfolio/</p>
+							<!-- <a href="https://github.com/frnky4fngrs/Portfolio">github link</a> -->
 						</figcaption>
 					</figure>
-				</div>
+				</article>
 
-				<div class="card">
+				<article class="card">
 					<figure>
-						<img src="img/sun.jpg" alt="sunset">
+						<img class="align-img" src="img/sun.jpg" alt="sunset">
 						<figcaption>
 							<h4>FUTURE</h4>
-							<p>https://github.com/frnky4fngrs/notyetthere</p>
+							<p>https://github.com/frnky4fngrs/TODO/</p>
 							<!-- <a href="#">future link</a> -->
 						</figcaption>
 					</figure>
-				</div>
+				</article>
 			</div>
+		</article>
+
+		<footer> <!-- show some contact info -->
+			<i class="fa fa-address-card fa-3x fa-pull-left"></i>
+				<p>Jeff Jones</p>
+				<p>frnky4fngrs.contact@gmail.com</p>
 		</footer>
 	</div>
 </body>

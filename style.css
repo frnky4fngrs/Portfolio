@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: row;
+	margin: 10vh;
+	max-width: 1295px;
+}
+
+.artwidth {
+	width: 100%;
+}
+
+.col-one {
+	flex: 1;
+}
+
+.col-two {
+	display: flex;
+	flex-direction: column;
+	flex: 5;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+.content > article {
+	flex: 3;
+	border-top: 3px solid black;
+}
+
+h2 {
+	font-family: "Courier New", Courier;
+	font-weight: 400;
+}
+
+h3 {
+	font-family: Ariel, Verdana;
+	font-weight: 500;
+}
+
+h3.ext1 {
+	display: none;
+}
+
+h4 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+}
+
+p {
+	font-family: Ariel, Verdana;
+	font-weight: 300;
+	font-size: 65%;
+}
+
+header {
+	display: flex;
+	flex: 3;
+	justify-content: space-between;
+	max-height: 100px;
+}
+
+footer {
+	max-height: 30vh;
+}
+
+header, footer, article, nav {
+	padding: 1em;
+}
+
+.card-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card {
+	/*border: 1px dotted black;*/
+}
+
+figcaption {
+	
+	text-align: center;
+}
